@@ -19,7 +19,7 @@ for numero, animal in zip (animales, numeros) :
     print (f"Recorriendo lista 1: {animal}")
     print (f"Recorriendo lista 2: {numero}")
     
-#Forma NO OPTIMA de recorrer una lista 
+#Forma NO OPTIMA de recorrer una lista NO FUNCIONA EN CONJUNTOS
 for num in range(len(numeros)):
     print (numeros[num])
     
