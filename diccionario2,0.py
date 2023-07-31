@@ -5,10 +5,10 @@ diccionario = dict(nombre = "Darwin", apellido = "Jimenez")
 diccionario = {("Dalto","Rancio"), "xd"}
 
 #Creando diccionario con fromkeys() para obtener diccionario con valor NONE
-#Es necesario colocarla como si fuese lista
-diccionario = dict.fromkeys(["Nombre", "Apellido"])
+diccionario = dict.fromkeys("iterable", "igualar")
 
 #Creando diccionario con fromkeys() con dos parámetros
+#Es necesario colocarla como si fuese lista
 diccionario = dict.fromkeys(["Nombre", "Apellido"], "")
 print (diccionario)
 
