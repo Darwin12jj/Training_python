@@ -1,1 +1,1 @@
-print("La cerveza se llama:\n","\"" , input("Ingrese su fruta favorito: ").capitalize() + input("Ingrese su deporte favorito: ").capitalize(), "\"")
+print("La cerveza se llama:\n","\"" , input("Ingrese su fruta favorita: ").capitalize() + input("Ingrese su deporte favorito: ").capitalize(), "\"")
